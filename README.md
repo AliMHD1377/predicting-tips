@@ -19,7 +19,7 @@ tip
 
 برای این پروژه از Dataset معروف `tips` که در کتابخانه‌ی **Seaborn** وجود دارد استفاده شده است.
 
-Dataset شامل اطلاعات مربوط به صورتحساب‌های رستوران و مقدار انعام مشتریان است.
+این Dataset شامل اطلاعات مربوط به صورتحساب‌های رستوران و مقدار انعام مشتریان است.
 
 برخی از ستون‌های اصلی Dataset:
 
@@ -57,24 +57,13 @@ predicting-tips/
 
 ## ▶️ نحوه اجرا
 
-### پیش نیازها
-
-قبل از شروع، مطمئن شوید که موارد زیر روی سیستم شما نصب است:
-
-- Python نسخه ۳.۸ یا بالاتر
-- Jupyter Notebook یا JupyterLab (یا افزونه‌ی Jupyter در VS Code)
-
-پروژه را کلون کنید:
+**پیش‌نیاز:** Python نسخه‌ی ۳٫۹ یا بالاتر و Jupyter Notebook / JupyterLab (یا افزونه‌ی Jupyter در VS Code).
 
 ```bash
 git clone https://github.com/AliMHD1377/predicting-tips.git
-```
-نصب کتابخانه های مورد نیاز:
-```bash
+cd predicting-tips
 pip install -r requirements.txt
+jupyter notebook predicting_tips.ipynb
 ```
-اجرای Jupyter Notebook
 
-سپس فایل را باز کنید: predicting_tips.ipynb
-
-و سلول‌ها را به‌ترتیب اجرا کنید.
+سپس سلول‌ها را به‌ترتیب اجرا کنید.
